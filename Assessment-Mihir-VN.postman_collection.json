@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "f4a962ca-297d-4cf3-9bd7-5003539c78aa",
+		"name": "Assessment-Mihir-VN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Local Call",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/employee?client_id=228fd40954dc46eabcfe3903d5d4d58a&client_secret=C0e8954679c64118913c512CC2a38715",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"employee"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "228fd40954dc46eabcfe3903d5d4d58a"
+						},
+						{
+							"key": "client_secret",
+							"value": "C0e8954679c64118913c512CC2a38715"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Call",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://dummy.restapiexample.com/api/v1/employees",
+					"protocol": "http",
+					"host": [
+						"dummy",
+						"restapiexample",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employees"
+					]
+				},
+				"description": "API Call"
+			},
+			"response": []
+		},
+		{
+			"name": "InsertData",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/employee?client_id=228fd40954dc46eabcfe3903d5d4d58a&client_secret=C0e8954679c64118913c512CC2a38715",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"employee"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "228fd40954dc46eabcfe3903d5d4d58a"
+						},
+						{
+							"key": "client_secret",
+							"value": "C0e8954679c64118913c512CC2a38715"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
